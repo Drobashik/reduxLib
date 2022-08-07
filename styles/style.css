@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+    transition: 300ms;
+}
+
+body.dark {
+    background-color: #343a40;
+    color: #fff;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 50px auto;
+}
+
+.head {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+hr {
+    margin: 10px 0;
+}
+
+.btn {
+    border-radius: 4px;
+    background-color: rgb(47, 206, 47);
+    color: #000;
+    cursor: pointer;
+    padding: 5px 10px;
+}
+
+.box {
+    border: 1px solid #ccc;
+    padding: 20px;
+}
+
+.box h2 {
+    margin-bottom: 10px;
+}
